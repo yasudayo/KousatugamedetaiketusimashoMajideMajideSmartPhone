@@ -26,7 +26,6 @@ const table1 = document.getElementById('table1');
 
 
 let se = new Audio('決定.mp3');
-let se1 = new Audio('pati.mp3');
 let colors = 0;
 let MaxKoma = 0;
 let check = 0;
@@ -217,6 +216,7 @@ function firstTurn() {
     meirei.innerText = "1Pの番です";
 }
 function blue1() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     check++
     container.innerHTML = '<span></span>'
@@ -237,6 +237,7 @@ function blue1() {
     }
 }
 function blue2() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container.innerHTML = '<span></span>'
     container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao1" onclick="blue1()">`
@@ -250,6 +251,7 @@ function blue2() {
     }
 }
 function blue3() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container.innerHTML = '<span></span>'
     container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao1" onclick="blue1()">`
@@ -264,6 +266,7 @@ function blue3() {
     }
 }
 function blue4() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container.innerHTML = '<span></span>'
     container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao1" onclick="blue1()">`
@@ -279,6 +282,7 @@ function blue4() {
     }
 }
 function blue5() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container.innerHTML = '<span></span>'
     container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao1" onclick="blue1()">`
@@ -295,6 +299,7 @@ function blue5() {
     }
 }
 function blue6() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container.innerHTML = '<span></span>'
     container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao1" onclick="blue1()">`
@@ -312,6 +317,7 @@ function blue6() {
     }
 }
 function blue7() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container.innerHTML = '<span></span>'
     container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao1" onclick="blue1()">`
@@ -330,6 +336,7 @@ function blue7() {
     }
 }
 function blue8() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container.innerHTML = '<span></span>'
     container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao1" onclick="blue1()">`
@@ -349,6 +356,7 @@ function blue8() {
     }
 }
 function blue9() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container.innerHTML = '<span></span>'
     container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao1" onclick="blue1()">`
@@ -369,6 +377,7 @@ function blue9() {
     }
 }
 function blue10() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container.innerHTML = '<span></span>'
     container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao1" onclick="blue1()">`
@@ -391,6 +400,7 @@ function blue10() {
 }
 
 function red1() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     check++
     container1.innerHTML = '<span></span>'
@@ -411,6 +421,7 @@ function red1() {
     }
 }
 function red2() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container1.innerHTML = '<span></span>'
     container1.innerHTML += `<img src="aka.png" width="25" height="54" id="aka1" onclick="red1()">`
@@ -424,6 +435,7 @@ function red2() {
     }
 }
 function red3() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container1.innerHTML = '<span></span>'
     container1.innerHTML += `<img src="aka.png" width="25" height="54" id="aka1" onclick="red1()">`
@@ -438,6 +450,7 @@ function red3() {
     }
 }
 function red4() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container1.innerHTML = '<span></span>'
     container1.innerHTML += `<img src="aka.png" width="25" height="54" id="aka1" onclick="red1()">`
@@ -453,6 +466,7 @@ function red4() {
     }
 }
 function red5() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container1.innerHTML = '<span></span>'
     container1.innerHTML += `<img src="aka.png" width="25" height="54" id="aka1" onclick="red1()">`
@@ -469,6 +483,7 @@ function red5() {
     }
 }
 function red6() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container1.innerHTML = '<span></span>'
     container1.innerHTML += `<img src="aka.png" width="25" height="54" id="aka1" onclick="red1()">`
@@ -486,6 +501,7 @@ function red6() {
     }
 }
 function red7() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container1.innerHTML = '<span></span>'
     container1.innerHTML += `<img src="aka.png" width="25" height="54" id="aka1" onclick="red1()">`
@@ -504,6 +520,7 @@ function red7() {
     }
 }
 function red8() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container1.innerHTML = '<span></span>'
     container1.innerHTML += `<img src="aka.png" width="25" height="54" id="aka1" onclick="red1()">`
@@ -523,6 +540,7 @@ function red8() {
     }
 }
 function red9() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container1.innerHTML = '<span></span>'
     container1.innerHTML += `<img src="aka.png" width="25" height="54" id="aka1" onclick="red1()">`
@@ -543,6 +561,7 @@ function red9() {
     }
 }
 function red10() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container1.innerHTML = '<span></span>'
     container1.innerHTML += `<img src="aka.png" width="25" height="54" id="aka1" onclick="red1()">`
@@ -564,6 +583,7 @@ function red10() {
     }
 }
 function yellow1() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     check++
     container2.innerHTML = '<span></span>'
@@ -584,6 +604,7 @@ function yellow1() {
     }
 }
 function yellow2() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container2.innerHTML = '<span></span>'
     container2.innerHTML += `<img src="ki.png" width="25" height="54" id="ki1" onclick="yellow1()">`
@@ -597,6 +618,7 @@ function yellow2() {
     }
 }
 function yellow3() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container2.innerHTML = '<span></span>'
     container2.innerHTML += `<img src="ki.png" width="25" height="54" id="ki1" onclick="yellow1()">`
@@ -611,6 +633,7 @@ function yellow3() {
     }
 }
 function yellow4() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container2.innerHTML = '<span></span>'
     container2.innerHTML += `<img src="ki.png" width="25" height="54" id="ki1" onclick="yellow1()">`
@@ -626,6 +649,7 @@ function yellow4() {
     }
 }
 function yellow5() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container2.innerHTML = '<span></span>'
     container2.innerHTML += `<img src="ki.png" width="25" height="54" id="ki1" onclick="yellow1()">`
@@ -642,6 +666,7 @@ function yellow5() {
     }
 }
 function yellow6() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container2.innerHTML = '<span></span>'
     container2.innerHTML += `<img src="ki.png" width="25" height="54" id="ki1" onclick="yellow1()">`
@@ -659,6 +684,7 @@ function yellow6() {
     }
 }
 function yellow7() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container2.innerHTML = '<span></span>'
     container2.innerHTML += `<img src="ki.png" width="25" height="54" id="ki1" onclick="yellow1()">`
@@ -677,6 +703,7 @@ function yellow7() {
     }
 }
 function yellow8() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container2.innerHTML = '<span></span>'
     container2.innerHTML += `<img src="ki.png" width="25" height="54" id="ki1" onclick="yellow1()">`
@@ -696,6 +723,7 @@ function yellow8() {
     }
 }
 function yellow9() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container2.innerHTML = '<span></span>'
     container2.innerHTML += `<img src="ki.png" width="25" height="54" id="ki1" onclick="yellow1()">`
@@ -716,6 +744,7 @@ function yellow9() {
     }
 }
 function yellow10() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container2.innerHTML = '<span></span>'
     container2.innerHTML += `<img src="ki.png" width="25" height="54" id="ki1" onclick="yellow1()">`
@@ -745,6 +774,7 @@ function firstTurn1 () {
     meirei.innerText = "1Pの番です";
 }
 function fblue1() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     check++
     container.innerHTML = '<span></span>'
@@ -765,6 +795,7 @@ function fblue1() {
     }
 }
 function fblue2() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container.innerHTML = '<span></span>'
     container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao1" onclick="blue1()">`
@@ -778,6 +809,7 @@ function fblue2() {
     }
 }
 function fblue3() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container.innerHTML = '<span></span>'
     container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao1" onclick="fblue1()">`
@@ -792,6 +824,7 @@ function fblue3() {
     }
 }
 function fblue4() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container.innerHTML = '<span></span>'
     container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao1" onclick="fblue1()">`
@@ -807,6 +840,7 @@ function fblue4() {
     }
 }
 function fblue5() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container.innerHTML = '<span></span>'
     container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao1" onclick="fblue1()">`
@@ -823,6 +857,7 @@ function fblue5() {
     }
 }
 function fblue6() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container.innerHTML = '<span></span>'
     container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao1" onclick="fblue1()">`
@@ -840,6 +875,7 @@ function fblue6() {
     }
 }
 function fblue7() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container.innerHTML = '<span></span>'
     container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao1" onclick="fblue1()">`
@@ -858,6 +894,7 @@ function fblue7() {
     }
 }
 function fblue8() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container.innerHTML = '<span></span>'
     container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao1" onclick="fblue1()">`
@@ -877,6 +914,7 @@ function fblue8() {
     }
 }
 function fblue9() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container.innerHTML = '<span></span>'
     container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao1" onclick="fblue1()">`
@@ -897,6 +935,7 @@ function fblue9() {
     }
 }
 function fblue10() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container.innerHTML = '<span></span>'
     container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao1" onclick="fblue1()">`
@@ -918,6 +957,7 @@ function fblue10() {
     }
 }
 function fred1() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     check++
     container1.innerHTML = '<span></span>'
@@ -938,6 +978,7 @@ function fred1() {
     }
 }
 function fred2() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container1.innerHTML = '<span></span>'
     container1.innerHTML += `<img src="aka.png" width="25" height="54" id="aka1" onclick="fred1()">`
@@ -951,6 +992,7 @@ function fred2() {
     }
 }
 function fred3() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container1.innerHTML = '<span></span>'
     container1.innerHTML += `<img src="aka.png" width="25" height="54" id="aka1" onclick="fred1()">`
@@ -965,6 +1007,7 @@ function fred3() {
     }
 }
 function fred4() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container1.innerHTML = '<span></span>'
     container1.innerHTML += `<img src="aka.png" width="25" height="54" id="aka1" onclick="fred1()">`
@@ -980,6 +1023,7 @@ function fred4() {
     }
 }
 function fred5() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container1.innerHTML = '<span></span>'
     container1.innerHTML += `<img src="aka.png" width="25" height="54" id="aka1" onclick="fred1()">`
@@ -996,6 +1040,7 @@ function fred5() {
     }
 }
 function fred6() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container1.innerHTML = '<span></span>'
     container1.innerHTML += `<img src="aka.png" width="25" height="54" id="aka1" onclick="fred1()">`
@@ -1013,6 +1058,7 @@ function fred6() {
     }
 }
 function fred7() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container1.innerHTML = '<span></span>'
     container1.innerHTML += `<img src="aka.png" width="25" height="54" id="aka1" onclick="fred1()">`
@@ -1031,6 +1077,7 @@ function fred7() {
     }
 }
 function fred8() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container1.innerHTML = '<span></span>'
     container1.innerHTML += `<img src="aka.png" width="25" height="54" id="aka1" onclick="fred1()">`
@@ -1050,6 +1097,7 @@ function fred8() {
     }
 }
 function fred9() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container1.innerHTML = '<span></span>'
     container1.innerHTML += `<img src="aka.png" width="25" height="54" id="aka1" onclick="fred1()">`
@@ -1070,6 +1118,7 @@ function fred9() {
     }
 }
 function fred10() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container1.innerHTML = '<span></span>'
     container1.innerHTML += `<img src="aka.png" width="25" height="54" id="aka1" onclick="fred1()">`
@@ -1091,6 +1140,7 @@ function fred10() {
     }
 }
 function fyellow1() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     check++
     container2.innerHTML = '<span></span>'
@@ -1111,6 +1161,7 @@ function fyellow1() {
     }
 }
 function fyellow2() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container2.innerHTML = '<span></span>'
     container2.innerHTML += `<img src="ki.png" width="25" height="54" id="ki1" onclick="fyellow1()">`
@@ -1124,6 +1175,7 @@ function fyellow2() {
     }
 }
 function fyellow3() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container2.innerHTML = '<span></span>'
     container2.innerHTML += `<img src="ki.png" width="25" height="54" id="ki1" onclick="fyellow1()">`
@@ -1138,6 +1190,7 @@ function fyellow3() {
     }
 }
 function fyellow4() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container2.innerHTML = '<span></span>'
     container2.innerHTML += `<img src="ki.png" width="25" height="54" id="ki1" onclick="fyellow1()">`
@@ -1153,6 +1206,7 @@ function fyellow4() {
     }
 }
 function fyellow5() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container2.innerHTML = '<span></span>'
     container2.innerHTML += `<img src="ki.png" width="25" height="54" id="ki1" onclick="fyellow1()">`
@@ -1169,6 +1223,7 @@ function fyellow5() {
     }
 }
 function fyellow6() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container2.innerHTML = '<span></span>'
     container2.innerHTML += `<img src="ki.png" width="25" height="54" id="ki1" onclick="fyellow1()">`
@@ -1186,6 +1241,7 @@ function fyellow6() {
     }
 }
 function fyellow7() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container2.innerHTML = '<span></span>'
     container2.innerHTML += `<img src="ki.png" width="25" height="54" id="ki1" onclick="fyellow1()">`
@@ -1204,6 +1260,7 @@ function fyellow7() {
     }
 }
 function fyellow8() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container2.innerHTML = '<span></span>'
     container2.innerHTML += `<img src="ki.png" width="25" height="54" id="ki1" onclick="fyellow1()">`
@@ -1223,6 +1280,7 @@ function fyellow8() {
     }
 }
 function fyellow9() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container2.innerHTML = '<span></span>'
     container2.innerHTML += `<img src="ki.png" width="25" height="54" id="ki1" onclick="fyellow1()">`
@@ -1243,6 +1301,7 @@ function fyellow9() {
     }
 }
 function fyellow10() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container2.innerHTML = '<span></span>'
     container2.innerHTML += `<img src="ki.png" width="25" height="54" id="ki1" onclick="fyellow1()">`
@@ -1264,6 +1323,7 @@ function fyellow10() {
     }
 }
 function fgreen1() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     check++
     container3.innerHTML = '<span></span>'
@@ -1284,6 +1344,7 @@ function fgreen1() {
     }
 }
 function fgreen2() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container3.innerHTML = '<span></span>'
     container3.innerHTML += `<img src="midori.png" width="25" height="54" id="midori1" onclick="fgreen1()">`
@@ -1297,6 +1358,7 @@ function fgreen2() {
     }
 }
 function fgreen3() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container3.innerHTML = '<span></span>'
     container3.innerHTML += `<img src="midori.png" width="25" height="54" id="midori1" onclick="fgreen1()">`
@@ -1311,6 +1373,7 @@ function fgreen3() {
     }
 }
 function fgreen4() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container3.innerHTML = '<span></span>'
     container3.innerHTML += `<img src="midori.png" width="25" height="54" id="midori1" onclick="fgreen1()">`
@@ -1326,6 +1389,7 @@ function fgreen4() {
     }
 }
 function fgreen5() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container3.innerHTML = '<span></span>'
     container3.innerHTML += `<img src="midori.png" width="25" height="54" id="midori1" onclick="fgreen1()">`
@@ -1342,6 +1406,7 @@ function fgreen5() {
     }
 }
 function fgreen6() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container3.innerHTML = '<span></span>'
     container3.innerHTML += `<img src="midori.png" width="25" height="54" id="midori1" onclick="fgreen1()">`
@@ -1359,6 +1424,7 @@ function fgreen6() {
     }
 }
 function fgreen7() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container3.innerHTML = '<span></span>'
     container3.innerHTML += `<img src="midori.png" width="25" height="54" id="midori1" onclick="fgreen1()">`
@@ -1377,6 +1443,7 @@ function fgreen7() {
     }
 }
 function fgreen8() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container3.innerHTML = '<span></span>'
     container3.innerHTML += `<img src="midori.png" width="25" height="54" id="midori1" onclick="fgreen1()">`
@@ -1396,6 +1463,7 @@ function fgreen8() {
     }
 }
 function fgreen9() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container3.innerHTML = '<span></span>'
     container3.innerHTML += `<img src="midori.png" width="25" height="54" id="midori1" onclick="fgreen1()">`
@@ -1416,6 +1484,7 @@ function fgreen9() {
     }
 }
 function fgreen10() {
+    let se1 = new Audio('pati.mp3');
     se1.play();
     container3.innerHTML = '<span></span>'
     container3.innerHTML += `<img src="midori.png" width="25" height="54" id="midori1" onclick="fgreen1()">`
