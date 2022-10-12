@@ -1,0 +1,92 @@
+<html>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: black;
+        }
+
+        scene {
+            width: 290vmin;
+            height: 180vmin;
+            background: white;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <title>考察ゲームで対決しましょマジでマジで</title>
+    <link rel="stylesheet" href="style.css">
+    <input type="button" value="はじめる" id="hajimeru" onclick="hajimeru()">
+    <input type="button" value="もう一度遊ぶ" id="mou" onclick="mou()">
+    <input type="button" value="ランダム" id="ran" onclick="ran()">
+    <input type="button" value="START" id="start" onclick="gamestart()">
+    <div id="title"></div>
+    <div id="subtitle"></div>
+    <div id="three" onclick="threeS()"></div>
+    <div id="four" onclick="fourS()"></div>
+    <div id="meirei"></div>
+    <p id="text1">
+        青コマの数
+        <input type="number" id="blue" min="1" max="10" value="0">
+    </p>
+    <p id="text2">
+        赤コマの数
+        <input type="number" id="red" min="1" max="10" value="0">
+
+    </p>
+    <p id="text3">
+        黄コマの数
+        <input type="number" id="yellow" min="1" max="10" value="0">
+    </p>
+    <p id="text4">
+        緑コマの数
+        <input type="number" id="green" min="1" max="10" value="0">
+    </p>
+    <table border="1" id="table1">
+        <tbody>
+            <tr>
+                <td>
+                    <span id="b"></span>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span id="r"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span id="y"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span id="g"></span>
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+    <script src="main.js"></script>
+</body>
+
+</html>

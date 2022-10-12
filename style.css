@@ -1,0 +1,172 @@
+#hajimeru {
+    position: absolute;
+    text-align: center;
+    bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+#mou {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    bottom: 20%;
+    left: 45%;
+    cursor: pointer;
+   
+
+}
+#title {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: auto;
+    font-weight: 900;
+    font-size: 30;
+    text-align: center;
+    top: 25%;
+    
+}
+#subtitle {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: auto;
+    font-weight: 400;
+    font-size: 30;
+    text-align: center;
+    bottom: 30%;
+}   
+#meirei {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: auto;
+    font-weight: 400;
+    font-size: 30;
+    text-align: center;
+    top: 10%;
+}
+#three {
+    position: absolute;
+    text-align: center;
+    width: 250px;
+    height: auto;
+    font-weight: 900;
+    font-size: 60;
+    top: 30%;
+    background-color: rgb(255, 96, 96);
+    cursor: pointer;
+}
+#four {
+    position: absolute;
+    text-align: center;
+    width: 250px;
+    height: auto;
+    font-weight: 900;
+    font-size: 60;
+    top: 70%;
+    background-color: rgb(255, 96, 96);
+    cursor: pointer;
+}
+#text1 {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: auto;
+    top: 25%;
+}
+
+#text2 {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: auto;
+    top: 35%;
+}
+
+#text3 {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: auto;
+    top: 45%;
+}
+
+#text4 {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: auto;
+    top: 55%;
+}
+#blue {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: auto;
+}
+#red {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: auto;
+}
+#yellow {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: auto;
+}
+#green {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: auto;
+}
+#ran {
+    position: absolute;
+    text-align: center;
+    bottom: 20%;
+    left: 35%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+#start {
+    position: absolute;
+    text-align: center;
+    bottom: 20%;
+    left: 54%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#table1 {
+    position: absolute;
+    text-align: left;
+    display: flex;
+    height: auto;
+}
