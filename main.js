@@ -31,7 +31,7 @@ let MaxKoma = 0;
 let check = 0;
 
 title.innerText = "考察ゲームで対決しましょ\nマジでマジで";
-subtitle.innerText = "スマホ版";
+subtitle.innerText = "マジでマジでシリーズ2作品目";
 meirei.innerText = "何色で遊びますか";
 mb.style.display = 'none';
 three.style.display = 'none';
@@ -192,7 +192,8 @@ function IshiSet() {
             container2.innerHTML += `<img src="ki.png" width="25" height="54" id="ki${j + 1}" onclick="yellow${j + 1}()">`
         }
         firstTurn()
-    }else if (colors === 4) {
+    }
+    if (colors === 4) {
         container.innerHTML = '<span></span>'
         for (let i = 0; i < blue.value; i++) {
             container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao${i + 1}" onclick="fblue${i + 1}()">`
@@ -209,7 +210,7 @@ function IshiSet() {
         for (let t = 0; t < green.value; t++) {
             container3.innerHTML += `<img src="midori.png" width="25" height="54" id="midori${t + 1} "onclick="fgreen${t + 1}()">`
         }
-        firstTurn()
+        firstTurn1()
     }
 }
 function firstTurn() {
@@ -777,6 +778,7 @@ function fblue1() {
     let se1 = new Audio('pati.mp3');
     se1.play();
     check++
+    console.log(check)
     container.innerHTML = '<span></span>'
     for (let t = 0; t < blue.value; t++) {
         container.innerHTML += `<img src="nasi.png" width="25" height="54" id="ao${t + 1}" onclick="fblue${t + 1}()">`
@@ -798,7 +800,7 @@ function fblue2() {
     let se1 = new Audio('pati.mp3');
     se1.play();
     container.innerHTML = '<span></span>'
-    container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao1" onclick="blue1()">`
+    container.innerHTML += `<img src="ao.png" width="25" height="54" id="ao1" onclick="fblue1()">`
     for (let t = 1; t < blue.value; t++) {
         container.innerHTML += `<img src="nasi.png" width="25" height="54" id="ao${t + 1}" onclick="fblue${t + 1}()">`
     }
@@ -960,9 +962,10 @@ function fred1() {
     let se1 = new Audio('pati.mp3');
     se1.play();
     check++
+    console.log(check)
     container1.innerHTML = '<span></span>'
     for (let t = 0; t < red.value; t++) {
-        container1.innerHTML += `<img src="nasi.png" width="25" height="54" id="aka${t + 1}" onclick="ffred${t + 1}()">`
+        container1.innerHTML += `<img src="nasi.png" width="25" height="54" id="aka${t + 1}" onclick="fred${t + 1}()">`
     }
     if (meirei.innerText === "1Pの番です" &&  check !== 4) {
         secondTurn()
