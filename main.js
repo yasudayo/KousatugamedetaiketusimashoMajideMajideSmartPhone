@@ -31,7 +31,7 @@ let MaxKoma = 0;
 let check = 0;
 
 title.innerText = "考察ゲームで対決しましょ\nマジでマジで";
-subtitle.innerText = "マジでマジでシリーズ2作品目";
+subtitle.innerText = "スマホ版";
 meirei.innerText = "何色で遊びますか";
 mb.style.display = 'none';
 three.style.display = 'none';
